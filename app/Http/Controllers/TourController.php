@@ -9,8 +9,7 @@ class TourController extends Controller
 {
     public function index()
     {
-        $tours = Tour::all(); // Список всех туров
-        return view('tours.index', compact('tours'));
+        return to_route('businesses.index'); // ЗАГЛУШКА, В ДАЛЬНЕЙШЕМ - ЭТО СКОРЕЕ ВСЕГО ROUTE ДЛЯ ПОИСКА ПО ТУРАМ 
     }
 
     public function show(Business $business, Tour $tour)
