@@ -21,6 +21,7 @@ class TourFactory extends Factory
             'date_start' => $this->faker->dateTimeBetween('now', '+1 year'), // DateTime объект
             'date_end' => $this->faker->dateTimeBetween('+1 year', '+2 years'),
             'image' => 'tours/' . $this->faker->image('public/storage/tours', 800, 600, 'travel', false),
+            'price' => $this->faker->numberBetween(1000, 50000), // Цена в диапазоне от 1000 до 50000
         ];
     }
 }

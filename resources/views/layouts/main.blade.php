@@ -29,8 +29,7 @@
                     </li>
                     <li><a href="{{ route('start.index') }}">Главная</a></li>
                     <li>Контакты</li>
-                    <li><a href="{{ route('tours.index') }}">Туры</a></li>
-                    <li><a href="{{ route('businesses.index') }}">Бизнесы</a></li>
+                    <li><a href="{{ route('businesses.index') }}">Туры</a></li>
                 </ul>
             </nav>
         </header>

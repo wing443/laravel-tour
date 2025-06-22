@@ -16,6 +16,7 @@ return new class extends Migration {
             $table->string('request_slug');
             $table->string('slug'); // Slug для URL (например, 'tour1')
             $table->text('description');
+            $table->unsignedInteger('price');
             $table->foreignId('business_id')->constrained('businesses');
             $table->integer('available_places');
             $table->dateTime('date_start');
