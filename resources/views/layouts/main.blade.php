@@ -31,6 +31,7 @@
 						<li class="cursor-pointer p-2 hover:bg-blue-200/50 rounded-2xl transition duration-1000 ease-in-out">Контакты</li>
 						<li class="cursor-pointer p-2 hover:bg-blue-200/50 rounded-2xl transition duration-1000 ease-in-out"><a href="{{ route('tours.index') }}">Туры</a></li>
 						<li class="cursor-pointer p-2 hover:bg-blue-200/50 rounded-2xl transition duration-1000 ease-in-out"><a href="{{ route('businesses.index') }}">Бизнесы</a></li>
+                        <li class="cursor-pointer p-2 hover:bg-blue-200/50 rounded-2xl transition duration-1000 ease-in-out"><a href="{{ route('businesses.index') }}">Товары 18+</a></li>
 					</ul>
 				</nav>
 			</header>
